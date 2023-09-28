@@ -25,7 +25,7 @@ function App() {
   
   return (
     <div className="App dark:bg-black dark:text-white">
-      <button onClick={Darktoggle}>Dark mode</button>
+      <button  className='cursor-pointer bg-black text-white w-36 rounded-md dark:bg-white dark:text-black 'onClick={Darktoggle}>Dark mode</button>
       <Router>
         <Routes>
           <Route path="/login" element={<Loginpage />} />

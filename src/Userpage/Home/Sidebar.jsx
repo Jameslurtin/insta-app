@@ -13,9 +13,9 @@ function Sidebar({ Handleclickside, activecomponent }) {
 
     return (
         <div className='w-3/12 bg-white dark:bg-black p-5  h-[1000px]  border-r-4 border-gray-200'>
-            <div>
+            <div className=''>
 
-                <img src={instalogo} className='mix-blend-multiply'></img>
+                <img src={instalogo} className='mix-blend-multiply dark:invert dark:mix-blend-screen'></img>
             </div>
             <div className=' flex justify-start px-8 py-7 gap-3 '>
                 <ul className='flex  flex-col  items-start  gap-4 '>
@@ -43,7 +43,7 @@ function Sidebar({ Handleclickside, activecomponent }) {
                         <AiOutlinePlusSquare /><span>Create</span>
                     </li>
                     <li onClick={() => { Handleclickside("profile") }} className={activecomponent === 'profile' ? "flex justify-center items-center p-3 gap-2 text-2xl font-semibold cursor-pointer bg-gray-900 text-white rounded-lg " : 'flex justify-center items-center p-3 gap-2 text-2xl font-semibold cursor-pointer hover:bg-gray-900 hover:text-white rounded-lg '}>
-                        <img className='rounded-full w-7 mix-blend-multiply' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqkUYrITWyI8OhPNDHoCDUjGjhg8w10_HRqg&usqp=CAU'></img><span>profile
+                        <img className='rounded-full w-7 mix-blend-multiply h-7' src='https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg'></img><span>profile
                         </span>
                     </li>
 

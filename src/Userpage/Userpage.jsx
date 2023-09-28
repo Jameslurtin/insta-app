@@ -9,6 +9,7 @@ import Explo from './Home/Explo';
 import Message from './Home/Message';
 import Reels from './Home/Reels';
 import Create from './Home/Create';
+import Notification from './Home/Notification';
 
 
 function Userpage() {
@@ -31,6 +32,7 @@ function Userpage() {
         {activecomponent==='messages'&& <Message></Message>}
         {activecomponent==='reels'&& <Reels></Reels>}
         {activecomponent==='create'&& <Create></Create>}
+        {activecomponent==='notification'&& <Notification></Notification>}
         
     </div>
   )

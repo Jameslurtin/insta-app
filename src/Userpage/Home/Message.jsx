@@ -30,26 +30,26 @@ function Message() {
         setNewMessage("");
       };
   return (
-    <div className="flex h-screen w-screen bg-gray-100">
-    {/* Sidebar */}
+    <div className="flex  h-screen w-screen bg-gray-100">
+    
     <div className="w-1/4 bg-gray-200 p-4 border-r border-gray-300">
-      {/* Sender Profile */}
+
       <div className="text-center  bg-gray-400 ">
         <div className='flex gap-2 py-3'>
 
       <img className='w-11 h-11 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-tOXr1F4ROKisn7pNSRHeF9pJ1o0dBzPnZA&usqp=CAU'></img>
         <p className="text-gray-800 font-semibold relative">vimal</p>
-        <p className="text-green-600 absolute top-11 left-[480px] ">Online</p>
+        <p className="text-green-600 absolute top-20 left-[480px] ">Online</p>
         </div>
         
         
      
         
       </div>
-      {/* Other sidebar content can be added here */}
+      
     </div>
 
-    {/* Chat */}
+  
     <div className="flex-1 p-4 ">
       <div className="bg-white shadow-lg rounded-lg h-full">
         <div className="flex px-4 py-2 border-b border-gray-300  gap-3 text-lg items-center">

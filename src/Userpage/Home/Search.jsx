@@ -5,9 +5,9 @@ function Search() {
     return (
         <div>
 
-            <div className='flex  p-2  gap-2  ml-48'>
+            <div className='flex  p-2  gap-2  ml-48 py-3'>
 
-                <input className='h-8 w-96 border-4 border-black' placeholder='search'></input>
+                <input className='h-8 w-96 border-4 border-black dark:text-black' placeholder='search'></input>
                 <button className='flex p-1'><FiSearch></FiSearch></button>
 
             </div>
@@ -20,7 +20,7 @@ function Search() {
             <h className='font-bold text-lg'>vignesh_14</h>
             
          </div>
-         <div className='flex  absolute right-[1135px] top-40 '>
+         <div className='flex  absolute right-[1135px] top-42 '>
             <h className='ml-10 text-lg'>vignesh</h>
             <h className='text-lg ml-5'><span className='font-bold  '>.</span>Following </h>
          </div>
